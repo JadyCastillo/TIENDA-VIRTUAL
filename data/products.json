@@ -1,0 +1,419 @@
+{
+  "products": [
+    {
+      "id": "barcelona-crema-pedri-8",
+      "name": "Camiseta Barcelona Crema",
+      "category": "clubes",
+      "categoryLabel": "Clubes internacionales",
+      "price": 55.0,
+      "featured": true,
+      "description": "Camiseta crema del Barcelona con un llamativo diseño de cruz en tono granate y estampado de Pedri número 8. Una opción elegante y diferente para los hinchas del club. Puede personalizarse con otro nombre y número.",
+      "images": [
+        {
+          "src": "assets/img/products/barcelona-crema-pedri-frontal.jpeg",
+          "alt": "Parte delantera de la camiseta crema del Barcelona"
+        },
+        {
+          "src": "assets/img/products/barcelona-crema-pedri-trasera.jpeg",
+          "alt": "Parte trasera de la camiseta crema del Barcelona con Pedri número 8"
+        }
+      ],
+      "sizes": {
+        "S": "available",
+        "M": "preorder",
+        "L": "preorder",
+        "XL": "preorder"
+      },
+      "customizable": true,
+      "leadTime": "Stock inmediato únicamente en talla S. Las demás tallas se solicitan mediante reserva.",
+      "productType": "camisetas",
+      "productTypeLabel": "Camisetas de fútbol"
+    },
+    {
+      "id": "barcelona-blaugrana-yamal-10",
+      "name": "Camiseta Barcelona Blaugrana",
+      "category": "clubes",
+      "categoryLabel": "Clubes internacionales",
+      "price": 55.0,
+      "featured": true,
+      "description": "Camiseta blaugrana del Barcelona con franjas rojas y azules, detalles deportivos y estampado de Lamine Yamal número 10. Ideal para lucir los colores del club. Puede personalizarse con otro nombre y número.",
+      "images": [
+        {
+          "src": "assets/img/products/barcelona-blaugrana-yamal-frontal.jpeg",
+          "alt": "Parte delantera de la camiseta blaugrana del Barcelona"
+        },
+        {
+          "src": "assets/img/products/barcelona-blaugrana-yamal-trasera.jpeg",
+          "alt": "Parte trasera de la camiseta blaugrana del Barcelona con Lamine Yamal número 10"
+        }
+      ],
+      "sizes": {
+        "S": "preorder",
+        "M": "available",
+        "L": "preorder",
+        "XL": "preorder"
+      },
+      "customizable": true,
+      "leadTime": "Stock inmediato únicamente en talla M. Las demás tallas se solicitan mediante reserva.",
+      "productType": "camisetas",
+      "productTypeLabel": "Camisetas de fútbol"
+    },
+    {
+      "id": "real-madrid-2025-26-mbappe-10-oficial",
+      "name": "Camiseta Real Madrid 2025/26 Oficial",
+      "category": "clubes",
+      "categoryLabel": "Clubes internacionales",
+      "price": 55.0,
+      "featured": true,
+      "description": "Camiseta blanca oficial del Real Madrid 2025/26 con detalles deportivos y estampado de Mbappé número 10. Un modelo moderno para los seguidores del equipo, disponible mediante reserva. Puede personalizarse con otro nombre y número.",
+      "images": [
+        {
+          "src": "assets/img/products/real-madrid-2025-26-mbappe-10.jpeg",
+          "alt": "Camiseta oficial del Real Madrid 2025/26 con Mbappé número 10"
+        }
+      ],
+      "sizes": {
+        "S": "preorder",
+        "M": "preorder",
+        "L": "preorder",
+        "XL": "preorder"
+      },
+      "customizable": true,
+      "leadTime": "Disponible únicamente mediante reserva. Consultar el tiempo estimado de entrega por WhatsApp.",
+      "productType": "camisetas",
+      "productTypeLabel": "Camisetas de fútbol"
+    },
+    {
+      "id": "real-madrid-blanca-mbappe-vinicius",
+      "name": "Camiseta Real Madrid Blanca",
+      "category": "clubes",
+      "categoryLabel": "Clubes internacionales",
+      "price": 55.0,
+      "featured": true,
+      "description": "Camiseta blanca del Real Madrid disponible con estampado de Mbappé o Vinícius Jr., según la talla y el stock. Su diseño clásico representa la elegancia del club. Puede personalizarse con otro nombre y número.",
+      "images": [
+        {
+          "src": "assets/img/products/real-madrid-blanca-mbappe-vinicius.jpeg",
+          "alt": "Camiseta blanca del Real Madrid disponible con Mbappé o Vinícius Jr."
+        }
+      ],
+      "sizes": {
+        "S": "available",
+        "M": "available",
+        "L": "preorder",
+        "XL": "preorder"
+      },
+      "customizable": true,
+      "leadTime": "Stock inmediato en tallas S y M. Las demás tallas se solicitan mediante reserva.",
+      "productType": "camisetas",
+      "productTypeLabel": "Camisetas de fútbol"
+    },
+    {
+      "id": "alianza-lima-2026",
+      "name": "Camiseta Alianza Lima",
+      "category": "peruanos",
+      "categoryLabel": "Equipos peruanos",
+      "price": 55.0,
+      "featured": true,
+      "description": "Camiseta de Alianza Lima con las tradicionales rayas azules y blancas que representan la identidad del club. Ideal para alentar al equipo o usar en actividades deportivas. Puede personalizarse con otro nombre y número.",
+      "images": [
+        {
+          "src": "assets/img/products/alianza lima 2026.jpeg",
+          "alt": "Parte delantera de la camiseta alianza lima"
+        }
+      ],
+      "sizes": {
+        "S": "available",
+        "M": "available",
+        "L": "preorder",
+        "XL": "preorder"
+      },
+      "customizable": true,
+      "leadTime": "Stock inmediato en S y M.",
+      "productType": "camisetas",
+      "productTypeLabel": "Camisetas de fútbol"
+    },
+    {
+      "id": "universitario-2026",
+      "name": "Camiseta Universitario de Deportes",
+      "category": "peruanos",
+      "categoryLabel": "Equipos peruanos",
+      "price": 55.0,
+      "featured": true,
+      "description": "Camiseta crema de Universitario de Deportes con detalles deportivos representativos del club. Una excelente opción para los hinchas que desean lucir los colores del equipo. Puede personalizarse con otro nombre y número.",
+      "images": [
+        {
+          "src": "assets/img/products/universitario-2026.jpeg",
+          "alt": "Parte delantera de la camiseta crema"
+        }
+      ],
+      "sizes": {
+        "S": "available",
+        "M": "available",
+        "L": "preorder",
+        "XL": "preorder"
+      },
+      "customizable": true,
+      "leadTime": "Stock inmediato en S y M.",
+      "productType": "camisetas",
+      "productTypeLabel": "Camisetas de fútbol"
+    },
+    {
+      "id": "sporting-cristal-2026",
+      "name": "Camiseta Sporting Cristal",
+      "category": "peruanos",
+      "categoryLabel": "Equipos peruanos",
+      "price": 55.0,
+      "featured": true,
+      "description": "Camiseta celeste de Sporting Cristal con un diseño deportivo que representa los colores tradicionales del club. Ideal para acompañar al equipo y demostrar la pasión por el fútbol peruano. Puede personalizarse con otro nombre y número.",
+      "images": [
+        {
+          "src": "assets/img/products/sporting-cristal-2026.jpeg",
+          "alt": "Parte delantera de la camiseta celeste"
+        }
+      ],
+      "sizes": {
+        "S": "available",
+        "M": "available",
+        "L": "preorder",
+        "XL": "preorder"
+      },
+      "customizable": true,
+      "leadTime": "Stock inmediato en S y M.",
+      "productType": "camisetas",
+      "productTypeLabel": "Camisetas de fútbol"
+    },
+    {
+      "id": "brasil-neymar-jr-10",
+      "name": "Camiseta Brasil",
+      "category": "selecciones",
+      "categoryLabel": "Selecciones",
+      "price": 55.0,
+      "featured": true,
+      "description": "Camiseta amarilla de la selección de Brasil con detalles verdes y estampado de Neymar Jr. número 10. Un diseño clásico para los seguidores de la selección brasileña. Puede personalizarse con otro nombre y número.",
+      "images": [
+        {
+          "src": "assets/img/products/brasil-neymar-10-frontal.jpeg",
+          "alt": "Parte delantera de la camiseta de Brasil con número 10"
+        },
+        {
+          "src": "assets/img/products/brasil-neymar-10-trasera.jpeg",
+          "alt": "Parte trasera de la camiseta de Brasil con Neymar Jr. número 10"
+        }
+      ],
+      "sizes": {
+        "S": "available",
+        "M": "available",
+        "L": "preorder",
+        "XL": "preorder"
+      },
+      "customizable": true,
+      "leadTime": "Stock inmediato en tallas S y M. Las demás tallas se solicitan mediante reserva.",
+      "productType": "camisetas",
+      "productTypeLabel": "Camisetas de fútbol"
+    },
+    {
+      "id": "argentina-messi-10",
+      "name": "Camiseta Argentina",
+      "category": "selecciones",
+      "categoryLabel": "Selecciones",
+      "price": 55.0,
+      "featured": true,
+      "description": "Camiseta celeste y blanca de la selección de Argentina con detalles dorados y estampado de Messi número 10. Ideal para los hinchas de la campeona del mundo. Puede personalizarse con otro nombre y número.",
+      "images": [
+        {
+          "src": "assets/img/products/argentina-messi-10-frontal.jpeg",
+          "alt": "Parte delantera de la camiseta de Argentina con número 10"
+        },
+        {
+          "src": "assets/img/products/argentina-messi-10-trasera.jpeg",
+          "alt": "Parte trasera de la camiseta de Argentina con Messi número 10"
+        }
+      ],
+      "sizes": {
+        "S": "available",
+        "M": "available",
+        "L": "preorder",
+        "XL": "preorder"
+      },
+      "customizable": true,
+      "leadTime": "Stock inmediato en tallas S y M. Las demás tallas se solicitan mediante reserva.",
+      "productType": "camisetas",
+      "productTypeLabel": "Camisetas de fútbol"
+    },
+    {
+      "id": "portugal-ronaldo-7",
+      "name": "Camiseta Portugal",
+      "category": "selecciones",
+      "categoryLabel": "Selecciones",
+      "price": 55.0,
+      "featured": true,
+      "description": "Camiseta roja de la selección de Portugal con detalles verdes y estampado de Ronaldo número 7. Un modelo representativo para los seguidores de la selección portuguesa. Puede personalizarse con otro nombre y número.",
+      "images": [
+        {
+          "src": "assets/img/products/portugal-ronaldo-7-frontal.jpeg",
+          "alt": "Parte delantera de la camiseta de Portugal con número 7"
+        },
+        {
+          "src": "assets/img/products/portugal-ronaldo-7-trasera.jpeg",
+          "alt": "Parte trasera de la camiseta de Portugal con Ronaldo número 7"
+        }
+      ],
+      "sizes": {
+        "S": "available",
+        "M": "available",
+        "L": "preorder",
+        "XL": "preorder"
+      },
+      "customizable": true,
+      "leadTime": "Stock inmediato en tallas S y M. Las demás tallas se solicitan mediante reserva.",
+      "productType": "camisetas",
+      "productTypeLabel": "Camisetas de fútbol"
+    },
+    {
+      "id": "espana-blanco-marfil-yamal-19",
+      "name": "Camiseta España Blanco Marfil",
+      "category": "selecciones",
+      "categoryLabel": "Selecciones",
+      "price": 55.0,
+      "featured": true,
+      "description": "Camiseta blanco marfil de la selección de España con detalles granates y dorados, además del estampado de Lamine Yamal número 19. Un modelo elegante y diferente. Puede personalizarse con otro nombre y número.",
+      "images": [
+        {
+          "src": "assets/img/products/espana-blanco-marfil-yamal-19-frontal.jpeg",
+          "alt": "Parte delantera de la camiseta blanco marfil de España con número 19"
+        },
+        {
+          "src": "assets/img/products/espana-blanco-marfil-yamal-19-trasera.jpeg",
+          "alt": "Parte trasera de la camiseta blanco marfil de España con Lamine Yamal número 19"
+        }
+      ],
+      "sizes": {
+        "S": "preorder",
+        "M": "available",
+        "L": "preorder",
+        "XL": "preorder"
+      },
+      "customizable": true,
+      "leadTime": "Stock inmediato únicamente en talla M. Las demás tallas se solicitan mediante reserva.",
+      "productType": "camisetas",
+      "productTypeLabel": "Camisetas de fútbol"
+    },
+    {
+      "id": "espana-roja-yamal-19",
+      "name": "Camiseta España Roja",
+      "category": "selecciones",
+      "categoryLabel": "Selecciones",
+      "price": 55.0,
+      "featured": true,
+      "description": "Camiseta roja de la selección de España con detalles amarillos y azul oscuro, además del estampado de Lamine Yamal número 19. Un diseño deportivo para alentar a la selección. Puede personalizarse con otro nombre y número.",
+      "images": [
+        {
+          "src": "assets/img/products/espana-roja-yamal-19-frontal.jpeg",
+          "alt": "Parte delantera de la camiseta roja de España con número 19"
+        },
+        {
+          "src": "assets/img/products/espana-roja-yamal-19-trasera.jpeg",
+          "alt": "Parte trasera de la camiseta roja de España con Lamine Yamal número 19"
+        }
+      ],
+      "sizes": {
+        "S": "available",
+        "M": "preorder",
+        "L": "preorder",
+        "XL": "preorder"
+      },
+      "customizable": true,
+      "leadTime": "Stock inmediato únicamente en talla S. Las demás tallas se solicitan mediante reserva.",
+      "productType": "camisetas",
+      "productTypeLabel": "Camisetas de fútbol"
+    },
+    {
+      "id": "inglaterra-2026-bellingham-10",
+      "name": "Camiseta Inglaterra 2026",
+      "category": "selecciones",
+      "categoryLabel": "Selecciones",
+      "price": 55.0,
+      "featured": true,
+      "description": "Camiseta blanca de la selección de Inglaterra 2026 con detalles rojos y oscuros, además del estampado de Bellingham número 10. Disponible mediante reserva. Puede personalizarse con otro nombre y número.",
+      "images": [
+        {
+          "src": "assets/img/products/inglaterra-2026-bellingham-10-frontal.jpeg",
+          "alt": "Parte delantera de la camiseta blanca de Inglaterra"
+        },
+        {
+          "src": "assets/img/products/inglaterra-2026-bellingham-10-trasera.jpeg",
+          "alt": "Parte trasera de la camiseta de Inglaterra con Bellingham número 10"
+        }
+      ],
+      "sizes": {
+        "S": "preorder",
+        "M": "preorder",
+        "L": "preorder",
+        "XL": "preorder"
+      },
+      "customizable": true,
+      "leadTime": "Producto disponible únicamente mediante reserva. Consultar por WhatsApp el tiempo estimado de entrega.",
+      "productType": "camisetas",
+      "productTypeLabel": "Camisetas de fútbol"
+    },
+    {
+      "id": "japon-2026-visitante-kubo-20",
+      "name": "Camiseta Japón 2026 Visitante",
+      "category": "selecciones",
+      "categoryLabel": "Selecciones",
+      "price": 55.0,
+      "featured": true,
+      "description": "Camiseta visitante blanca de la selección de Japón 2026 con líneas verticales de diferentes colores y estampado de Kubo número 20. Disponible mediante reserva. Puede personalizarse con otro nombre y número.",
+      "images": [
+        {
+          "src": "assets/img/products/japon-2026-kubo-20-frontal.jpeg",
+          "alt": "Parte delantera de la camiseta visitante blanca de Japón con número 20"
+        },
+        {
+          "src": "assets/img/products/japon-2026-kubo-20-trasera.jpeg",
+          "alt": "Parte trasera de la camiseta de Japón con Kubo número 20"
+        }
+      ],
+      "sizes": {
+        "S": "preorder",
+        "M": "preorder",
+        "L": "preorder",
+        "XL": "preorder"
+      },
+      "customizable": true,
+      "leadTime": "Producto disponible únicamente mediante reserva. Consultar por WhatsApp el tiempo estimado de entrega.",
+      "productType": "camisetas",
+      "productTypeLabel": "Camisetas de fútbol"
+    },
+    {
+      "id": "francia-2026-azul-mbappe-10",
+      "name": "Camiseta Francia 2026 Azul",
+      "category": "selecciones",
+      "categoryLabel": "Selecciones",
+      "price": 55.0,
+      "featured": true,
+      "description": "Camiseta azul de la selección de Francia 2026 con cuello blanco, detalles deportivos y estampado de Mbappé número 10. Disponible mediante reserva. Puede personalizarse con otro nombre y número.",
+      "images": [
+        {
+          "src": "assets/img/products/francia-2026-mbappe-10-frontal.jpeg",
+          "alt": "Parte delantera de la camiseta azul de Francia con número 10"
+        },
+        {
+          "src": "assets/img/products/francia-2026-mbappe-10-trasera.jpeg",
+          "alt": "Parte trasera de la camiseta azul de Francia con Mbappé número 10"
+        }
+      ],
+      "sizes": {
+        "S": "preorder",
+        "M": "preorder",
+        "L": "preorder",
+        "XL": "preorder"
+      },
+      "customizable": true,
+      "leadTime": "Producto disponible únicamente mediante reserva. Consultar por WhatsApp el tiempo estimado de entrega.",
+      "productType": "camisetas",
+      "productTypeLabel": "Camisetas de fútbol"
+    }
+  ]
+}
