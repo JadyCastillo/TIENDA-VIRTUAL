@@ -21,7 +21,7 @@ export class CatalogController {
     try {
       const [products, store] = await Promise.all([
         this.productModel.load(),
-        this.storeModel.load()
+        this.storeModel.load(),
       ]);
 
       this.store = store;
@@ -32,13 +32,13 @@ export class CatalogController {
       this.view.renderProductTypes(productTypes, this.activeType);
       this.view.renderCategories(
         this.productModel.getCategories(this.activeType),
-        this.activeCategory
+        this.activeCategory,
       );
       this.#renderFilteredProducts();
     } catch (error) {
       console.error(error);
       this.view.showError(
-        "No se pudo cargar el catálogo. Revisa los archivos JSON y ejecuta la página desde un servidor local."
+        "No se pudo cargar el catálogo. Revisa los archivos JSON y ejecuta la página desde un servidor local.",
       );
     }
   }
@@ -53,7 +53,7 @@ export class CatalogController {
       this.view.updateActiveType(this.activeType);
       this.view.renderCategories(
         this.productModel.getCategories(this.activeType),
-        this.activeCategory
+        this.activeCategory,
       );
       this.#renderFilteredProducts();
     });
@@ -98,14 +98,17 @@ export class CatalogController {
       if (action === "change-image" && this.currentProduct) {
         this.view.updateGallery(
           this.currentProduct,
-          Number(actionElement.dataset.imageIndex)
+          Number(actionElement.dataset.imageIndex),
         );
       }
 
       if (action === "select-size") {
         this.selectedSize = actionElement.dataset.size;
         this.selectedSizeStatus = actionElement.dataset.sizeStatus;
-        this.view.updateSizeSelection(this.selectedSize, this.selectedSizeStatus);
+        this.view.updateSizeSelection(
+          this.selectedSize,
+          this.selectedSizeStatus,
+        );
       }
 
       if (action === "send-order") {
@@ -114,11 +117,12 @@ export class CatalogController {
     });
 
     this.view.dialogContent.addEventListener("change", (event) => {
-      if (event.target.id !== "customization-toggle" || !this.currentProduct) {
+      if (event.target.name !== "print-option" || !this.currentProduct) {
         return;
       }
 
-      const customizationEnabled = event.target.checked;
+      const customizationEnabled = event.target.value === "custom";
+
       const total =
         Number(this.currentProduct.price) +
         (customizationEnabled ? Number(this.store.customizationPrice) : 0);
@@ -137,12 +141,14 @@ export class CatalogController {
       this.view.closeProduct();
     });
 
-    document.querySelectorAll("[data-action='general-whatsapp']").forEach((button) => {
-      button.addEventListener("click", () => {
-        if (!this.store) return;
-        this.#openWhatsApp(this.store.generalMessage);
+    document
+      .querySelectorAll("[data-action='general-whatsapp']")
+      .forEach((button) => {
+        button.addEventListener("click", () => {
+          if (!this.store) return;
+          this.#openWhatsApp(this.store.generalMessage);
+        });
       });
-    });
 
     const menuButton = document.querySelector(".menu-toggle");
     const navigation = document.querySelector("#main-nav");
@@ -162,7 +168,7 @@ export class CatalogController {
     const products = this.productModel.filter({
       productType: this.activeType,
       category: this.activeCategory,
-      query: this.searchQuery
+      query: this.searchQuery,
     });
 
     this.view.renderProducts(products, this.store);
@@ -182,7 +188,7 @@ export class CatalogController {
 
     if (formData.customized && !formData.customName && !formData.customNumber) {
       this.view.showFormError(
-        "Escribe por lo menos un nombre o un número para la personalización."
+        "Escribe por lo menos un nombre o un número para la personalización.",
       );
       return;
     }
@@ -192,7 +198,7 @@ export class CatalogController {
       product: this.currentProduct,
       size: this.selectedSize,
       sizeStatus: this.selectedSizeStatus,
-      ...formData
+      ...formData,
     });
 
     this.#openWhatsApp(message);

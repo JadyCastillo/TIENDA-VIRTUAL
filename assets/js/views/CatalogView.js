@@ -2,7 +2,7 @@ import { escapeHtml, formatCurrency } from "../utils/formatters.js";
 
 const sizeLabels = {
   available: "Stock",
-  preorder: "Reserva"
+  preorder: "Reserva",
 };
 
 export class CatalogView {
@@ -53,17 +53,19 @@ export class CatalogView {
           >
             ${escapeHtml(type.label)}
           </button>
-        `
+        `,
       )
       .join("");
   }
 
   updateActiveType(productType) {
-    this.typeFilters.querySelectorAll("[data-product-type]").forEach((button) => {
-      const isActive = button.dataset.productType === productType;
-      button.classList.toggle("active", isActive);
-      button.setAttribute("aria-pressed", String(isActive));
-    });
+    this.typeFilters
+      .querySelectorAll("[data-product-type]")
+      .forEach((button) => {
+        const isActive = button.dataset.productType === productType;
+        button.classList.toggle("active", isActive);
+        button.setAttribute("aria-pressed", String(isActive));
+      });
   }
 
   renderCategories(categories, activeCategory = "all") {
@@ -80,7 +82,7 @@ export class CatalogView {
           >
             ${escapeHtml(category.label)}
           </button>
-        `
+        `,
       )
       .join("");
   }
@@ -110,7 +112,9 @@ export class CatalogView {
   }
 
   openProduct(product, store) {
-    const availableNow = Object.values(product.sizes).some((status) => status === "available");
+    const availableNow = Object.values(product.sizes).some(
+      (status) => status === "available",
+    );
     const onlyPreorder = !availableNow;
     const canCustomize = product.customizable !== false || onlyPreorder;
     const defaultImage = product.images[0];
@@ -136,13 +140,13 @@ export class CatalogView {
                     >
                       <img src="${escapeHtml(image.src)}" alt="">
                     </button>
-                  `
+                  `,
                 )
                 .join("")}
             </div>
             <div class="gallery-main">
               <img id="dialog-main-image" src="${escapeHtml(defaultImage.src)}" alt="${escapeHtml(
-                defaultImage.alt
+                defaultImage.alt,
               )}">
             </div>
           </div>
@@ -172,7 +176,7 @@ export class CatalogView {
                         <strong>${escapeHtml(size)}</strong>
                         <small>${sizeLabels[status] ?? status}</small>
                       </button>
-                    `
+                    `,
                   )
                   .join("")}
               </div>
@@ -185,29 +189,71 @@ export class CatalogView {
               canCustomize
                 ? `
                   <div class="customization-box">
+                    <p class="option-title">Elige cómo deseas la camiseta</p>
+
                     <label class="customization-toggle">
-                      <input id="customization-toggle" type="checkbox">
+                      <input
+                        type="radio"
+                        name="print-option"
+                        value="original"
+                        checked
+                      >
                       <span>
-                        <strong>Agregar personalización (+${formatCurrency(
-                          store.customizationPrice,
-                          store.locale,
-                          store.currency
-                        )})</strong>
-                        <small>${
-                          onlyPreorder
-                            ? "También puedes personalizar una camiseta solicitada por reserva."
-                            : "Coloca nombre, número o ambos."
-                        }</small>
+                        <strong>Como aparece en la imagen</strong>
+                        <small>Se mantiene el nombre y número mostrados.</small>
                       </span>
                     </label>
+
+                    <label class="customization-toggle">
+                      <input
+                        type="radio"
+                        name="print-option"
+                        value="blank"
+                      >
+                      <span>
+                        <strong>Sin nombre ni número</strong>
+                        <small>Camiseta sin estampado en la espalda.</small>
+                      </span>
+                    </label>
+
+                    <label class="customization-toggle">
+                      <input
+                        type="radio"
+                        name="print-option"
+                        value="custom"
+                      >
+                      <span>
+                        <strong>
+                          Personalizar (+${formatCurrency(
+                            store.customizationPrice,
+                            store.locale,
+                            store.currency,
+                          )})
+                        </strong>
+                        <small>Coloca otro nombre, número o ambos.</small>
+                      </span>
+                    </label>
+
                     <div id="customization-fields" class="customization-fields" hidden>
                       <label class="field">
                         <span>Nombre</span>
-                        <input id="custom-name" type="text" maxlength="18" placeholder="Ejemplo: JADY">
+                        <input
+                          id="custom-name"
+                          type="text"
+                          maxlength="18"
+                          placeholder="Ejemplo: JADY"
+                        >
                       </label>
+
                       <label class="field">
                         <span>Número</span>
-                        <input id="custom-number" type="text" inputmode="numeric" maxlength="3" placeholder="10">
+                        <input
+                          id="custom-number"
+                          type="text"
+                          inputmode="numeric"
+                          maxlength="3"
+                          placeholder="10"
+                        >
                       </label>
                     </div>
                   </div>
@@ -221,7 +267,7 @@ export class CatalogView {
                 <strong id="dialog-total">${formatCurrency(
                   product.price,
                   store.locale,
-                  store.currency
+                  store.currency,
                 )}</strong>
               </div>
               <span id="order-type-badge" class="status-badge ${availableNow ? "available" : "preorder"}">
@@ -262,18 +308,29 @@ export class CatalogView {
     mainImage.src = image.src;
     mainImage.alt = image.alt;
 
-    this.dialogContent.querySelectorAll("[data-action='change-image']").forEach((button) => {
-      button.classList.toggle("active", Number(button.dataset.imageIndex) === imageIndex);
-    });
+    this.dialogContent
+      .querySelectorAll("[data-action='change-image']")
+      .forEach((button) => {
+        button.classList.toggle(
+          "active",
+          Number(button.dataset.imageIndex) === imageIndex,
+        );
+      });
   }
 
   updateSizeSelection(size, status) {
-    this.dialogContent.querySelectorAll("[data-action='select-size']").forEach((button) => {
-      button.classList.toggle("selected", button.dataset.size === size);
-    });
+    this.dialogContent
+      .querySelectorAll("[data-action='select-size']")
+      .forEach((button) => {
+        button.classList.toggle("selected", button.dataset.size === size);
+      });
 
-    const availabilityMessage = this.dialogContent.querySelector("#availability-message");
-    const orderButton = this.dialogContent.querySelector("[data-action='send-order']");
+    const availabilityMessage = this.dialogContent.querySelector(
+      "#availability-message",
+    );
+    const orderButton = this.dialogContent.querySelector(
+      "[data-action='send-order']",
+    );
     const badge = this.dialogContent.querySelector("#order-type-badge");
 
     if (status === "available") {
@@ -300,17 +357,28 @@ export class CatalogView {
     }
 
     if (totalElement) {
-      totalElement.textContent = formatCurrency(total, store.locale, store.currency);
+      totalElement.textContent = formatCurrency(
+        total,
+        store.locale,
+        store.currency,
+      );
     }
 
     this.clearFormError();
   }
 
   getOrderFormData() {
+    const printOption =
+      this.dialogContent.querySelector("input[name='print-option']:checked")
+        ?.value ?? "original";
+
     return {
-      customized: this.dialogContent.querySelector("#customization-toggle")?.checked ?? false,
-      customName: this.dialogContent.querySelector("#custom-name")?.value.trim() ?? "",
-      customNumber: this.dialogContent.querySelector("#custom-number")?.value.trim() ?? ""
+      printOption,
+      customized: printOption === "custom",
+      customName:
+        this.dialogContent.querySelector("#custom-name")?.value.trim() ?? "",
+      customNumber:
+        this.dialogContent.querySelector("#custom-number")?.value.trim() ?? "",
     };
   }
 
@@ -326,7 +394,9 @@ export class CatalogView {
   }
 
   #createProductCard(product, store) {
-    const hasStock = Object.values(product.sizes).some((status) => status === "available");
+    const hasStock = Object.values(product.sizes).some(
+      (status) => status === "available",
+    );
     const primaryImage = product.images[0];
 
     return `
@@ -348,7 +418,7 @@ export class CatalogView {
             <span class="product-price">${formatCurrency(
               product.price,
               store.locale,
-              store.currency
+              store.currency,
             )}</span>
           </div>
           <p class="product-description">${escapeHtml(product.description)}</p>
@@ -359,12 +429,12 @@ export class CatalogView {
                   <span class="${escapeHtml(status)}" title="${sizeLabels[status] ?? status}">
                     ${escapeHtml(size)}
                   </span>
-                `
+                `,
               )
               .join("")}
           </div>
           <button class="button product-action" type="button" data-action="open-product" data-product-id="${escapeHtml(
-            product.id
+            product.id,
           )}">
             Ver detalles
           </button>

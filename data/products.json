@@ -7,7 +7,7 @@
       "categoryLabel": "Clubes internacionales",
       "price": 55.0,
       "featured": true,
-      "description": "Camiseta crema del Barcelona con un llamativo diseño de cruz en tono granate y estampado de Pedri número 8. Una opción elegante y diferente para los hinchas del club. Puede personalizarse con otro nombre y número.",
+      "description": "Camiseta crema del Barcelona con un llamativo diseño de cruz en tono granate y estampado de Pedri número 8. Una opción elegante y diferente para los hinchas del club. Puede solicitarse como aparece en la imagen, sin nombre ni número o personalizarse con otro nombre y número.",
       "images": [
         {
           "src": "assets/img/products/barcelona-crema-pedri-frontal.jpeg",
@@ -36,7 +36,7 @@
       "categoryLabel": "Clubes internacionales",
       "price": 55.0,
       "featured": true,
-      "description": "Camiseta blaugrana del Barcelona con franjas rojas y azules, detalles deportivos y estampado de Lamine Yamal número 10. Ideal para lucir los colores del club. Puede personalizarse con otro nombre y número.",
+      "description": "Camiseta blaugrana del Barcelona con franjas rojas y azules, detalles deportivos y estampado de Lamine Yamal número 10. Ideal para lucir los colores del club. Puede solicitarse como aparece en la imagen, sin nombre ni número o personalizarse con otro nombre y número.",
       "images": [
         {
           "src": "assets/img/products/barcelona-blaugrana-yamal-frontal.jpeg",
@@ -65,7 +65,7 @@
       "categoryLabel": "Clubes internacionales",
       "price": 55.0,
       "featured": true,
-      "description": "Camiseta blanca oficial del Real Madrid 2025/26 con detalles deportivos y estampado de Mbappé número 10. Un modelo moderno para los seguidores del equipo, disponible mediante reserva. Puede personalizarse con otro nombre y número.",
+      "description": "Camiseta blanca oficial del Real Madrid 2025/26 con detalles deportivos y estampado de Mbappé número 10. Un modelo moderno para los seguidores del equipo, disponible mediante reserva. Puede solicitarse como aparece en la imagen, sin nombre ni número o personalizarse con otro nombre y número.",
       "images": [
         {
           "src": "assets/img/products/real-madrid-2025-26-mbappe-10.jpeg",
@@ -90,7 +90,7 @@
       "categoryLabel": "Clubes internacionales",
       "price": 55.0,
       "featured": true,
-      "description": "Camiseta blanca del Real Madrid disponible con estampado de Mbappé o Vinícius Jr., según la talla y el stock. Su diseño clásico representa la elegancia del club. Puede personalizarse con otro nombre y número.",
+      "description": "Camiseta blanca del Real Madrid disponible con estampado de Mbappé o Vinícius Jr., según la talla y el stock. Su diseño clásico representa la elegancia del club. Puede solicitarse como aparece en la imagen, sin nombre ni número o personalizarse con otro nombre y número.",
       "images": [
         {
           "src": "assets/img/products/real-madrid-blanca-mbappe-vinicius.jpeg",
@@ -115,7 +115,7 @@
       "categoryLabel": "Equipos peruanos",
       "price": 55.0,
       "featured": true,
-      "description": "Camiseta de Alianza Lima con las tradicionales rayas azules y blancas que representan la identidad del club. Ideal para alentar al equipo o usar en actividades deportivas. Puede personalizarse con otro nombre y número.",
+      "description": "Camiseta de Alianza Lima con las tradicionales rayas azules y blancas que representan la identidad del club. Ideal para alentar al equipo o usar en actividades deportivas. Puede solicitarse como aparece en la imagen, sin nombre ni número o personalizarse con otro nombre y número.",
       "images": [
         {
           "src": "assets/img/products/alianza lima 2026.jpeg",
@@ -140,7 +140,7 @@
       "categoryLabel": "Equipos peruanos",
       "price": 55.0,
       "featured": true,
-      "description": "Camiseta crema de Universitario de Deportes con detalles deportivos representativos del club. Una excelente opción para los hinchas que desean lucir los colores del equipo. Puede personalizarse con otro nombre y número.",
+      "description": "Camiseta crema de Universitario de Deportes con detalles deportivos representativos del club. Una excelente opción para los hinchas que desean lucir los colores del equipo. Puede solicitarse como aparece en la imagen, sin nombre ni número o personalizarse con otro nombre y número.",
       "images": [
         {
           "src": "assets/img/products/universitario-2026.jpeg",
@@ -165,7 +165,7 @@
       "categoryLabel": "Equipos peruanos",
       "price": 55.0,
       "featured": true,
-      "description": "Camiseta celeste de Sporting Cristal con un diseño deportivo que representa los colores tradicionales del club. Ideal para acompañar al equipo y demostrar la pasión por el fútbol peruano. Puede personalizarse con otro nombre y número.",
+      "description": "Camiseta celeste de Sporting Cristal con un diseño deportivo que representa los colores tradicionales del club. Ideal para acompañar al equipo y demostrar la pasión por el fútbol peruano. Puede solicitarse como aparece en la imagen, sin nombre ni número o personalizarse con otro nombre y número.",
       "images": [
         {
           "src": "assets/img/products/sporting-cristal-2026.jpeg",
@@ -190,7 +190,7 @@
       "categoryLabel": "Selecciones",
       "price": 55.0,
       "featured": true,
-      "description": "Camiseta amarilla de la selección de Brasil con detalles verdes y estampado de Neymar Jr. número 10. Un diseño clásico para los seguidores de la selección brasileña. Puede personalizarse con otro nombre y número.",
+      "description": "Camiseta amarilla de la selección de Brasil con detalles verdes y estampado de Neymar Jr. número 10. Un diseño clásico para los seguidores de la selección brasileña. Puede solicitarse como aparece en la imagen, sin nombre ni número o personalizarse con otro nombre y número.",
       "images": [
         {
           "src": "assets/img/products/brasil-neymar-10-frontal.jpeg",
@@ -219,7 +219,7 @@
       "categoryLabel": "Selecciones",
       "price": 55.0,
       "featured": true,
-      "description": "Camiseta celeste y blanca de la selección de Argentina con detalles dorados y estampado de Messi número 10. Ideal para los hinchas de la campeona del mundo. Puede personalizarse con otro nombre y número.",
+      "description": "Camiseta celeste y blanca de la selección de Argentina con detalles dorados y estampado de Messi número 10. Ideal para los hinchas de la campeona del mundo. Puede solicitarse como aparece en la imagen, sin nombre ni número o personalizarse con otro nombre y número.",
       "images": [
         {
           "src": "assets/img/products/argentina-messi-10-frontal.jpeg",
@@ -248,7 +248,7 @@
       "categoryLabel": "Selecciones",
       "price": 55.0,
       "featured": true,
-      "description": "Camiseta roja de la selección de Portugal con detalles verdes y estampado de Ronaldo número 7. Un modelo representativo para los seguidores de la selección portuguesa. Puede personalizarse con otro nombre y número.",
+      "description": "Camiseta roja de la selección de Portugal con detalles verdes y estampado de Ronaldo número 7. Un modelo representativo para los seguidores de la selección portuguesa. Puede solicitarse como aparece en la imagen, sin nombre ni número o personalizarse con otro nombre y número.",
       "images": [
         {
           "src": "assets/img/products/portugal-ronaldo-7-frontal.jpeg",
@@ -277,7 +277,7 @@
       "categoryLabel": "Selecciones",
       "price": 55.0,
       "featured": true,
-      "description": "Camiseta blanco marfil de la selección de España con detalles granates y dorados, además del estampado de Lamine Yamal número 19. Un modelo elegante y diferente. Puede personalizarse con otro nombre y número.",
+      "description": "Camiseta blanco marfil de la selección de España con detalles granates y dorados, además del estampado de Lamine Yamal número 19. Un modelo elegante y diferente. Puede solicitarse como aparece en la imagen, sin nombre ni número o personalizarse con otro nombre y número.",
       "images": [
         {
           "src": "assets/img/products/espana-blanco-marfil-yamal-19-frontal.jpeg",
@@ -306,7 +306,7 @@
       "categoryLabel": "Selecciones",
       "price": 55.0,
       "featured": true,
-      "description": "Camiseta roja de la selección de España con detalles amarillos y azul oscuro, además del estampado de Lamine Yamal número 19. Un diseño deportivo para alentar a la selección. Puede personalizarse con otro nombre y número.",
+      "description": "Camiseta roja de la selección de España con detalles amarillos y azul oscuro, además del estampado de Lamine Yamal número 19. Un diseño deportivo para alentar a la selección. Puede solicitarse como aparece en la imagen, sin nombre ni número o personalizarse con otro nombre y número.",
       "images": [
         {
           "src": "assets/img/products/espana-roja-yamal-19-frontal.jpeg",
@@ -335,7 +335,7 @@
       "categoryLabel": "Selecciones",
       "price": 55.0,
       "featured": true,
-      "description": "Camiseta blanca de la selección de Inglaterra 2026 con detalles rojos y oscuros, además del estampado de Bellingham número 10. Disponible mediante reserva. Puede personalizarse con otro nombre y número.",
+      "description": "Camiseta blanca de la selección de Inglaterra 2026 con detalles rojos y oscuros, además del estampado de Bellingham número 10. Disponible mediante reserva. Puede solicitarse como aparece en la imagen, sin nombre ni número o personalizarse con otro nombre y número.",
       "images": [
         {
           "src": "assets/img/products/inglaterra-2026-bellingham-10-frontal.jpeg",
@@ -364,7 +364,7 @@
       "categoryLabel": "Selecciones",
       "price": 55.0,
       "featured": true,
-      "description": "Camiseta visitante blanca de la selección de Japón 2026 con líneas verticales de diferentes colores y estampado de Kubo número 20. Disponible mediante reserva. Puede personalizarse con otro nombre y número.",
+      "description": "Camiseta visitante blanca de la selección de Japón 2026 con líneas verticales de diferentes colores y estampado de Kubo número 20. Disponible mediante reserva. Puede solicitarse como aparece en la imagen, sin nombre ni número o personalizarse con otro nombre y número.",
       "images": [
         {
           "src": "assets/img/products/japon-2026-kubo-20-frontal.jpeg",
@@ -393,7 +393,7 @@
       "categoryLabel": "Selecciones",
       "price": 55.0,
       "featured": true,
-      "description": "Camiseta azul de la selección de Francia 2026 con cuello blanco, detalles deportivos y estampado de Mbappé número 10. Disponible mediante reserva. Puede personalizarse con otro nombre y número.",
+      "description": "Camiseta azul de la selección de Francia 2026 con cuello blanco, detalles deportivos y estampado de Mbappé número 10. Disponible mediante reserva. Puede solicitarse como aparece en la imagen, sin nombre ni número o personalizarse con otro nombre y número.",
       "images": [
         {
           "src": "assets/img/products/francia-2026-mbappe-10-frontal.jpeg",
