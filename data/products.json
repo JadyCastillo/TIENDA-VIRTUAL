@@ -414,6 +414,180 @@
       "leadTime": "Producto disponible únicamente mediante reserva. Consultar por WhatsApp el tiempo estimado de entrega.",
       "productType": "camisetas",
       "productTypeLabel": "Camisetas de fútbol"
+    },
+    {
+      "id": "barcelona-roja",
+      "name": "Camiseta Barcelona Roja",
+      "category": "clubes",
+      "categoryLabel": "Clubes internacionales",
+      "price": 55.0,
+      "featured": true,
+      "description": "Camiseta roja del Barcelona con detalles azul oscuro y amarillos, escudo del club y patrocinador en la parte delantera. La espalda se presenta limpia, sin nombre ni dorsal. Puede solicitarse como aparece en la imagen, sin nombre ni número o personalizarse con otro nombre y número.",
+      "images": [
+        {
+          "src": "assets/img/products/barcelona-roja-frontal.jpeg",
+          "alt": "Parte delantera de la camiseta roja del Barcelona"
+        },
+        {
+          "src": "assets/img/products/barcelona-roja-trasera.jpeg",
+          "alt": "Parte trasera sin nombre ni número de la camiseta roja del Barcelona"
+        }
+      ],
+      "sizes": {
+        "S": "preorder",
+        "M": "preorder",
+        "L": "preorder",
+        "XL": "preorder"
+      },
+      "customizable": true,
+      "leadTime": "Producto disponible mediante reserva. Consultar por WhatsApp el tiempo estimado de entrega.",
+      "productType": "camisetas",
+      "productTypeLabel": "Camisetas de fútbol"
+    },
+    {
+      "id": "alianza-lima-retro",
+      "name": "Camiseta Alianza Lima Retro",
+      "category": "peruanos",
+      "categoryLabel": "Equipos peruanos",
+      "price": 55.0,
+      "featured": true,
+      "description": "Camiseta de Alianza Lima con diseño retro de franjas blancas y azul oscuro, patrocinador clásico en la parte delantera y estampado de Farfán número 9 en la espalda. Puede solicitarse como aparece en la imagen, sin nombre ni número o personalizarse con otro nombre y número.",
+      "images": [
+        {
+          "src": "assets/img/products/alianza-lima-retro-frontal.jpeg",
+          "alt": "Parte delantera de la camiseta retro de Alianza Lima"
+        },
+        {
+          "src": "assets/img/products/alianza-lima-retro-trasera.jpeg",
+          "alt": "Parte trasera de la camiseta de Alianza Lima con Farfán número 9"
+        }
+      ],
+      "sizes": {
+        "S": "preorder",
+        "M": "preorder",
+        "L": "preorder",
+        "XL": "preorder"
+      },
+      "customizable": true,
+      "leadTime": "Producto disponible mediante reserva. Consultar por WhatsApp el tiempo estimado de entrega.",
+      "productType": "camisetas",
+      "productTypeLabel": "Camisetas de fútbol"
+    },
+    {
+      "id": "barcelona-blaugrana-retro",
+      "name": "Camiseta Barcelona Blaugrana Retro",
+      "category": "clubes",
+      "categoryLabel": "Clubes internacionales",
+      "price": 55.0,
+      "featured": true,
+      "description": "Camiseta clásica del Barcelona con franjas verticales azules y rojas, detalles amarillos y estampado de Ronaldinho número 10 en la espalda. Un modelo ideal para los seguidores del fútbol clásico. Puede solicitarse como aparece en la imagen, sin nombre ni número o personalizarse con otro nombre y número.",
+      "images": [
+        {
+          "src": "assets/img/products/barcelona-blaugrana-retro-frontal.jpeg",
+          "alt": "Parte delantera de la camiseta blaugrana retro del Barcelona"
+        },
+        {
+          "src": "assets/img/products/barcelona-blaugrana-retro-trasera.jpeg",
+          "alt": "Parte trasera de la camiseta del Barcelona con Ronaldinho número 10"
+        }
+      ],
+      "sizes": {
+        "S": "preorder",
+        "M": "preorder",
+        "L": "preorder",
+        "XL": "preorder"
+      },
+      "customizable": true,
+      "leadTime": "Producto disponible mediante reserva. Consultar por WhatsApp el tiempo estimado de entrega.",
+      "productType": "camisetas",
+      "productTypeLabel": "Camisetas de fútbol"
+    },
+    {
+      "id": "real-madrid-verde",
+      "name": "Camiseta Real Madrid Verde",
+      "category": "clubes",
+      "categoryLabel": "Clubes internacionales",
+      "price": 55.0,
+      "featured": true,
+      "description": "Camiseta verde esmeralda del Real Madrid con detalles blancos, diseño estampado y nombre de Mbappé con el número 10 en la espalda. Un modelo diferente y llamativo para los seguidores del club. Puede solicitarse como aparece en la imagen, sin nombre ni número o personalizarse con otro nombre y número.",
+      "images": [
+        {
+          "src": "assets/img/products/real-madrid-verde-frontal.jpeg",
+          "alt": "Parte delantera de la camiseta verde del Real Madrid"
+        },
+        {
+          "src": "assets/img/products/real-madrid-verde-trasera.jpeg",
+          "alt": "Parte trasera de la camiseta verde del Real Madrid con Mbappé número 10"
+        }
+      ],
+      "sizes": {
+        "S": "preorder",
+        "M": "preorder",
+        "L": "preorder",
+        "XL": "preorder"
+      },
+      "customizable": true,
+      "leadTime": "Producto disponible mediante reserva. Consultar por WhatsApp el tiempo estimado de entrega.",
+      "productType": "camisetas",
+      "productTypeLabel": "Camisetas de fútbol"
+    },
+    {
+      "id": "universitario-cobriza",
+      "name": "Camiseta Universitario Cobriza",
+      "category": "peruanos",
+      "categoryLabel": "Equipos peruanos",
+      "price": 55.0,
+      "featured": true,
+      "description": "Camiseta de Universitario de Deportes en tono cobrizo con cuello blanco, detalles representativos del club y dorsal número 9 en la espalda. Un diseño diferente para los hinchas cremas. Puede solicitarse como aparece en la imagen, sin nombre ni número o personalizarse con otro nombre y número.",
+      "images": [
+        {
+          "src": "assets/img/products/universitario-cobriza-frontal.jpeg",
+          "alt": "Parte delantera de la camiseta cobriza de Universitario de Deportes"
+        },
+        {
+          "src": "assets/img/products/universitario-cobriza-trasera.jpeg",
+          "alt": "Parte trasera de la camiseta cobriza de Universitario con número 9"
+        }
+      ],
+      "sizes": {
+        "S": "preorder",
+        "M": "preorder",
+        "L": "preorder",
+        "XL": "preorder"
+      },
+      "customizable": true,
+      "leadTime": "Producto disponible mediante reserva. Consultar por WhatsApp el tiempo estimado de entrega.",
+      "productType": "camisetas",
+      "productTypeLabel": "Camisetas de fútbol"
+    },
+    {
+      "id": "manchester-city-celeste",
+      "name": "Camiseta Manchester City Celeste",
+      "category": "clubes",
+      "categoryLabel": "Clubes internacionales",
+      "price": 55.0,
+      "featured": true,
+      "description": "Camiseta celeste del Manchester City con detalles blancos, escudo del club y estampado de Haaland número 9 en la espalda. Un modelo deportivo para los seguidores del equipo inglés. Puede solicitarse como aparece en la imagen, sin nombre ni número o personalizarse con otro nombre y número.",
+      "images": [
+        {
+          "src": "assets/img/products/manchester-city-celeste-frontal.jpeg",
+          "alt": "Parte delantera de la camiseta celeste del Manchester City"
+        },
+        {
+          "src": "assets/img/products/manchester-city-celeste-trasera.jpeg",
+          "alt": "Parte trasera de la camiseta del Manchester City con Haaland número 9"
+        }
+      ],
+      "sizes": {
+        "S": "preorder",
+        "M": "preorder",
+        "L": "preorder",
+        "XL": "preorder"
+      },
+      "customizable": true,
+      "leadTime": "Producto disponible mediante reserva. Consultar por WhatsApp el tiempo estimado de entrega.",
+      "productType": "camisetas",
+      "productTypeLabel": "Camisetas de fútbol"
     }
   ]
 }
