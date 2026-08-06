@@ -1,6 +1,6 @@
 # Jady Sport - catálogo con WhatsApp
 
-Sitio web estático para mostrar camisetas de fútbol, seleccionar una talla, agregar una personalización y enviar el pedido o la reserva por WhatsApp.
+Sitio web estático para mostrar ropa deportiva, seleccionar una talla, agregar una personalización y enviar el pedido o la reserva por WhatsApp.
 
 ## Qué incluye
 

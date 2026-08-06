@@ -26,11 +26,11 @@ export class CatalogView {
       this.grid.append(this.loadingTemplate.content.cloneNode(true));
     }
 
-    this.status.textContent = "Cargando camisetas...";
+    this.status.textContent = "Cargando productos...";
   }
 
   renderStore(store) {
-    document.title = `${store.name} | Camisetas de fútbol`;
+    document.title = `${store.name} | Ropa deportiva`;
 
     document.querySelectorAll("[data-store-name]").forEach((element) => {
       element.textContent = store.name;
@@ -116,7 +116,8 @@ export class CatalogView {
       (status) => status === "available",
     );
     const onlyPreorder = !availableNow;
-    const canCustomize = product.customizable !== false || onlyPreorder;
+    //const canCustomize = product.customizable !== false || onlyPreorder;
+    const canCustomize = product.customizable !== false;
     const defaultImage = product.images[0];
 
     this.dialogContent.innerHTML = `
